@@ -20,6 +20,8 @@ logic bar;
 logic [7:0] count_foo;
 logic [7:0] count_bar;
 
+foobar DUT(.*);
+
 // Setup / initialization
 initial begin
     clk = 0;
@@ -36,6 +38,12 @@ end
 // Clock
 always begin
     #2 clk = ~clk;
+end
+
+// Stop the simulation
+initial begin
+    #200
+    $stop;
 end
 
 // File output
