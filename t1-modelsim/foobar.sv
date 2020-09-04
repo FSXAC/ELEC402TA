@@ -16,8 +16,8 @@ module foobar(
     output logic foo,
     output logic bar,
 
-    output logic[7:0] count_foo;
-    output logic[7:0] count_bar;
+    output logic[7:0] count_foo,
+    output logic[7:0] count_bar
 );
 
 pulse #(3) U_FOO(clk, en, rst, foo);

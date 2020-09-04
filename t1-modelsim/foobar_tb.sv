@@ -6,7 +6,7 @@
 
 
 // Specify simulation timing <unit step size> / <resolution>
- `timescale 5ps/1ps
+ `timescale 10ps/1ps
 
  module foobar_tb;
 

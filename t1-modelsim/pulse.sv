@@ -13,7 +13,7 @@ module pulse(
     input logic en,
     input logic rst,
 
-    output logic done,
+    output logic done
 );
 
 parameter max = 3;
