@@ -1,0 +1,15 @@
+/ubc/ece/home/ml/grads/mhe/ELEC402_2020/tutorial/t1-modelsim/pulse.sv {1 {vlog -work work -vopt -sv -stats=none /ubc/ece/home/ml/grads/mhe/ELEC402_2020/tutorial/t1-modelsim/pulse.sv
+Model Technology ModelSim SE-64 vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module pulse
+
+Top level modules:
+	pulse
+
+} {} {}} /ubc/ece/home/ml/grads/mhe/ELEC402_2020/tutorial/t1-modelsim/foobar.sv {1 {vlog -work work -vopt -sv -stats=none /ubc/ece/home/ml/grads/mhe/ELEC402_2020/tutorial/t1-modelsim/foobar.sv
+Model Technology ModelSim SE-64 vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module foobar
+
+Top level modules:
+	foobar
+
+} {} {}}
