@@ -34,17 +34,17 @@ initial begin
     #13
     en = 1;
     rst = 0;
+
+    #200
+    en = 0;
+
+    #20
+    $stop;
 end
 
 // Clock
 always begin
     #2 clk = ~clk;
-end
-
-// Stop the simulation
-initial begin
-    #200
-    $stop;
 end
 
 // File output

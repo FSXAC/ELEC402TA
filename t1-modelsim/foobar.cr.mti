@@ -12,4 +12,11 @@ Model Technology ModelSim SE-64 vlog 10.7c Compiler 2018.08 Aug 17 2018
 Top level modules:
 	pulse
 
+} {} {}} /ubc/ece/home/ml/grads/mhe/ELEC402_2020/tutorial/t1-modelsim/foobar_tb.sv {1 {vlog -work work -vopt -sv -stats=none /ubc/ece/home/ml/grads/mhe/ELEC402_2020/tutorial/t1-modelsim/foobar_tb.sv
+Model Technology ModelSim SE-64 vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module foobar_tb
+
+Top level modules:
+	foobar_tb
+
 } {} {}}
