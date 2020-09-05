@@ -73,11 +73,11 @@ write_hdl -mapped > ./out/${DESIGN}_map.v
 
 # Generate constraints file to be used in Encounter
 puts "\n\n> Generating constraints file . . ."
-write_sdc ./out/${DESIGN}_map.sdc
+write_sdc > ./out/${DESIGN}_map.sdc
 
 # Generate delay file to be used in ModelSim
 puts "\n\n> Generating delay file . . ."
-write_sdf ./out/${DESIGN}_map.sdf
+write_sdf > ./out/${DESIGN}_map.sdf
 
 # Status update
 puts "Synthesize complete. Final runtime and memory:"
