@@ -56,7 +56,7 @@ initial begin
 end
 
 always_ff @(posedge clk) begin
-    $fstrobe(file_out, "%4d |%8b%8b%8b%8b%8b%8d%8d", $time, clk, en, rst, foo, bar, count_foo, count_bar);
+    $fstrobe(file_out, "%4d |%8d%8d%8d%8d%8d%8d%8d", $time, clk, en, rst, foo, bar, count_foo, count_bar);
 end
 
 
