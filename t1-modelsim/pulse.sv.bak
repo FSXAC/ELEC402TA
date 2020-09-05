@@ -23,9 +23,9 @@ logic[7:0] count;
 always_ff @(posedge clk) begin
     if (rst) begin
         count <= 0;
-    end else if (en) begin 
-        if (count < max) count <= count + 1;
-        else count <= 1;
+    end else if (en) begin
+        if (count < (max - 1)) count <= count + 1;
+        else count <= 0;
     end
 end
 

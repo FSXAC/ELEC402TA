@@ -17,7 +17,6 @@ logic rst;
 logic foo;
 logic bar;
 
-logic [7:0] count;
 logic [7:0] count_foo;
 logic [7:0] count_bar;
 

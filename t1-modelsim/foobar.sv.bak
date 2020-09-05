@@ -28,7 +28,7 @@ always_ff @(posedge clk) begin
     if (rst) begin
         count_foo <= 0;
         count_bar <= 0;
-        count <= 0;
+        count <= 1;
     end
 
     else if (en) begin
