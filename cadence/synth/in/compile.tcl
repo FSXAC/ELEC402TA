@@ -8,7 +8,7 @@ date
 puts "\n\n> Setting up Synthesis Environment . . ."
 
 # Top level design name variable
-set DESIGN foobar
+set DESIGN up_counter
 
 # Set synthesis, mapping, and working directory
 set SYN_EFF medium
@@ -21,8 +21,7 @@ set_attribute lib_search_path /ubc/ece/data/cmc2/kits/ncsu_pdk/FreePDK15/NanGate
 set_attribute library {NanGate_15nm_OCL_worst_low_conditional_ccs.lib}
 
 # Read in user Verilog files (add -sv flag for SystemVerilog files)
-read_hdl -sv ./in/foobar.sv
-read_hdl -sv ./in/pulse.sv
+read_hdl -sv ./in/up_counter.sv
 
 # Elaboration validates the syntax (elaborate top-level model)
 elaborate $DESIGN
@@ -38,7 +37,7 @@ check_design -unresolved
 
 # Read timing constraint and clock definitions
 puts "\n\n> Reading timing constraints . . ."
-read_sdc ./in/foobar.sdc
+read_sdc ./in/timing.sdc
 
 # Synthesize generic cell
 puts "\n\n> Synthesizing to generic cell . . ."
@@ -80,9 +79,9 @@ puts "\n\n> Generating delay file . . ."
 write_sdf > ./out/${DESIGN}_map.sdf
 
 # Status update
-puts "Synthesize complete. Final runtime and memory:"
+puts "> Synthesize complete. Final runtime and memory:"
 timestat FINAL
 
 # Done
-puts "Exiting . . ."
+puts "\n\n> Exiting . . ."
 quit
