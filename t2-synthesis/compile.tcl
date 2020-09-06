@@ -80,9 +80,9 @@ puts "\n\n> Generating delay file . . ."
 write_sdf > ./out/${DESIGN}_map.sdf
 
 # Status update
-puts "Synthesize complete. Final runtime and memory:"
+puts "> Synthesize complete. Final runtime and memory:"
 timestat FINAL
 
 # Done
-puts "Exiting . . ."
+puts "\n\n> Exiting . . ."
 quit
