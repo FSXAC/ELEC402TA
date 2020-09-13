@@ -1,0 +1,373 @@
+Qflow route logfile created on Sun Sep 13 15:22:25 PDT 2020
+qrouter -nog  -s up_counter.cfg
+Qrouter detail maze router version 1.4.83.T
+Reading LEF data from file /usr/local/share/qflow/tech/osu035/osu035_stdcells.lef.
+LEF Read, Line 135: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 136: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 140: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 141: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 151: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 152: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 156: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 157: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 167: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 168: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 172: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 173: NOTE:  Old format VIARULE ignored.
+LEF file:  Defines site corner (ignored)
+LEF file:  Defines site IO (ignored)
+LEF file:  Defines site core (ignored)
+LEF read: Processed 3179 lines.
+LEF Read: encountered 0 errors and 12 warnings total.
+Vertical route layer at non-minimum pitch 3.2.  Using smaller pitch 1.6, will route on 1-of-2 tracks for layer metal4.
+Reading DEF data from file up_counter.def.
+Diagnostic: Design name: "up_counter"
+  Processed 3 vias total.
+  Processed 57 subcell instances total.
+  Processed 13 pins total.
+  Processed 53 nets total (0 fixed).
+  Processed 2 special nets total (4 fixed).
+DEF read: Processed 390 lines.
+Output scale = microns / 100, precision 1
+There are 55 nets in this design.
+*** Running stage1 routing with defaults
+Finished routing net clk
+Nets remaining: 54
+Finished routing net _2_
+Nets remaining: 53
+Finished routing net _27_[4]
+Nets remaining: 52
+Finished routing net _27_[0]
+Nets remaining: 51
+Finished routing net _4_
+Nets remaining: 50
+Finished routing net _27_[2]
+Nets remaining: 49
+Finished routing net _10_
+Nets remaining: 48
+Finished routing net _27_[6]
+Nets remaining: 47
+Finished routing net en
+Nets remaining: 46
+Finished routing net _27_[1]
+Nets remaining: 45
+Finished routing net _5_
+Nets remaining: 44
+Finished routing net _27_[5]
+Nets remaining: 43
+Finished routing net _27_[3]
+Nets remaining: 42
+Finished routing net _12_
+Nets remaining: 41
+Finished routing net _18_
+Nets remaining: 40
+Finished routing net _27_[7]
+Nets remaining: 39
+Finished routing net _1_
+Nets remaining: 38
+Finished routing net rst
+Nets remaining: 37
+Finished routing net _15_
+Nets remaining: 36
+Finished routing net _3_
+Nets remaining: 35
+Finished routing net _0_[0]
+Nets remaining: 34
+Finished routing net _6_
+Nets remaining: 33
+Finished routing net _0_[1]
+Nets remaining: 32
+Finished routing net _7_
+Nets remaining: 31
+Finished routing net _0_[2]
+Nets remaining: 30
+Finished routing net _8_
+Nets remaining: 29
+Finished routing net _9_
+Nets remaining: 28
+Finished routing net _11_
+Nets remaining: 27
+Finished routing net _0_[3]
+Nets remaining: 26
+Finished routing net _13_
+Nets remaining: 25
+Finished routing net _0_[4]
+Nets remaining: 24
+Finished routing net _14_
+Nets remaining: 23
+Finished routing net _16_
+Nets remaining: 22
+Finished routing net _17_
+Nets remaining: 21
+Finished routing net _0_[5]
+Nets remaining: 20
+Finished routing net _19_
+Nets remaining: 19
+Finished routing net _0_[6]
+Nets remaining: 18
+Finished routing net _20_
+Nets remaining: 17
+Finished routing net _21_
+Nets remaining: 16
+Finished routing net _22_
+Nets remaining: 15
+Finished routing net _23_
+Nets remaining: 14
+Finished routing net _24_
+Nets remaining: 13
+Finished routing net _25_
+Nets remaining: 12
+Finished routing net _26_
+Nets remaining: 11
+Finished routing net _0_[7]
+Nets remaining: 10
+Finished routing net count[0]
+Nets remaining: 9
+Finished routing net count[1]
+Nets remaining: 8
+Finished routing net count[2]
+Nets remaining: 7
+Finished routing net count[3]
+Nets remaining: 6
+Finished routing net count[4]
+Nets remaining: 5
+Finished routing net count[5]
+Nets remaining: 4
+Finished routing net count[6]
+Nets remaining: 3
+Finished routing net count[7]
+Nets remaining: 2
+
+----------------------------------------------
+Progress: Stage 1 total routes completed: 114
+No failed routes!
+----------------------------------------------
+*** Running stage3 routing with defaults, 1st round
+Finished routing net clk
+Nets remaining: 54
+Finished routing net _2_
+Nets remaining: 53
+Finished routing net _27_[4]
+Nets remaining: 52
+Finished routing net _27_[0]
+Nets remaining: 51
+Finished routing net _4_
+Nets remaining: 50
+Finished routing net _27_[2]
+Nets remaining: 49
+Finished routing net _10_
+Nets remaining: 48
+Finished routing net _27_[6]
+Nets remaining: 47
+Finished routing net en
+Nets remaining: 46
+Finished routing net _27_[1]
+Nets remaining: 45
+Finished routing net _5_
+Nets remaining: 44
+Finished routing net _27_[5]
+Nets remaining: 43
+Finished routing net _27_[3]
+Nets remaining: 42
+Finished routing net _12_
+Nets remaining: 41
+Finished routing net _18_
+Nets remaining: 40
+Finished routing net _27_[7]
+Nets remaining: 39
+Finished routing net _1_
+Nets remaining: 38
+Finished routing net rst
+Nets remaining: 37
+Finished routing net _15_
+Nets remaining: 36
+Finished routing net _3_
+Nets remaining: 35
+Finished routing net _0_[0]
+Nets remaining: 34
+Keeping route for net _6_
+Finished routing net _0_[1]
+Nets remaining: 32
+Finished routing net _7_
+Nets remaining: 31
+Finished routing net _0_[2]
+Nets remaining: 30
+Finished routing net _8_
+Nets remaining: 29
+Keeping route for net _9_
+Finished routing net _11_
+Nets remaining: 27
+Finished routing net _0_[3]
+Nets remaining: 26
+Finished routing net _13_
+Nets remaining: 25
+Finished routing net _0_[4]
+Nets remaining: 24
+Finished routing net _14_
+Nets remaining: 23
+Finished routing net _16_
+Nets remaining: 22
+Finished routing net _17_
+Nets remaining: 21
+Finished routing net _0_[5]
+Nets remaining: 20
+Finished routing net _19_
+Nets remaining: 19
+Finished routing net _0_[6]
+Nets remaining: 18
+Keeping route for net _20_
+Finished routing net _21_
+Nets remaining: 16
+Finished routing net _22_
+Nets remaining: 15
+Finished routing net _23_
+Nets remaining: 14
+Finished routing net _24_
+Nets remaining: 13
+Finished routing net _25_
+Nets remaining: 12
+Finished routing net _26_
+Nets remaining: 11
+Finished routing net _0_[7]
+Nets remaining: 10
+Keeping route for net count[0]
+Finished routing net count[1]
+Nets remaining: 8
+Keeping route for net count[2]
+Finished routing net count[3]
+Nets remaining: 6
+Keeping route for net count[4]
+Keeping route for net count[5]
+Finished routing net count[6]
+Nets remaining: 3
+Finished routing net count[7]
+Nets remaining: 2
+
+----------------------------------------------
+Progress: Stage 3 total routes completed: 221
+No failed routes!
+----------------------------------------------
+*** Running stage3 routing with defaults, 2nd round
+Finished routing net clk
+Nets remaining: 54
+Finished routing net _2_
+Nets remaining: 53
+Finished routing net _27_[4]
+Nets remaining: 52
+Finished routing net _27_[0]
+Nets remaining: 51
+Finished routing net _4_
+Nets remaining: 50
+Finished routing net _27_[2]
+Nets remaining: 49
+Finished routing net _10_
+Nets remaining: 48
+Finished routing net _27_[6]
+Nets remaining: 47
+Finished routing net en
+Nets remaining: 46
+Finished routing net _27_[1]
+Nets remaining: 45
+Finished routing net _5_
+Nets remaining: 44
+Finished routing net _27_[5]
+Nets remaining: 43
+Finished routing net _27_[3]
+Nets remaining: 42
+Finished routing net _12_
+Nets remaining: 41
+Finished routing net _18_
+Nets remaining: 40
+Finished routing net _27_[7]
+Nets remaining: 39
+Finished routing net _1_
+Nets remaining: 38
+Finished routing net rst
+Nets remaining: 37
+Finished routing net _15_
+Nets remaining: 36
+Finished routing net _3_
+Nets remaining: 35
+Finished routing net _0_[0]
+Nets remaining: 34
+Keeping route for net _6_
+Finished routing net _0_[1]
+Nets remaining: 32
+Finished routing net _7_
+Nets remaining: 31
+Finished routing net _0_[2]
+Nets remaining: 30
+Finished routing net _8_
+Nets remaining: 29
+Keeping route for net _9_
+Finished routing net _11_
+Nets remaining: 27
+Finished routing net _0_[3]
+Nets remaining: 26
+Finished routing net _13_
+Nets remaining: 25
+Finished routing net _0_[4]
+Nets remaining: 24
+Finished routing net _14_
+Nets remaining: 23
+Finished routing net _16_
+Nets remaining: 22
+Finished routing net _17_
+Nets remaining: 21
+Finished routing net _0_[5]
+Nets remaining: 20
+Finished routing net _19_
+Nets remaining: 19
+Finished routing net _0_[6]
+Nets remaining: 18
+Keeping route for net _20_
+Finished routing net _21_
+Nets remaining: 16
+Finished routing net _22_
+Nets remaining: 15
+Finished routing net _23_
+Nets remaining: 14
+Finished routing net _24_
+Nets remaining: 13
+Finished routing net _25_
+Nets remaining: 12
+Finished routing net _26_
+Nets remaining: 11
+Finished routing net _0_[7]
+Nets remaining: 10
+Keeping route for net count[0]
+Finished routing net count[1]
+Nets remaining: 8
+Keeping route for net count[2]
+Finished routing net count[3]
+Nets remaining: 6
+Keeping route for net count[4]
+Keeping route for net count[5]
+Finished routing net count[6]
+Nets remaining: 3
+Finished routing net count[7]
+Nets remaining: 2
+
+----------------------------------------------
+Progress: Stage 3 total routes completed: 328
+No failed routes!
+----------------------------------------------
+*** Writing DEF file up_counter_route.def
+emit_routes():  DEF file has 53 nets and 4 specialnets.
+but qrouter wants to write 55 nets and specialnets.
+----------------------------------------------
+Final: No failed routes!
+----------------------------------------------
+*** Writing RC file up_counter_route.rc
+DEF2Verilog -v /home/muchen/ELEC402TA/t1-qflow/synthesis/up_counter.rtlnopwr.v -o /home/muchen/ELEC402TA/t1-qflow/synthesis/up_counter_postroute.v
+-p vdd -g gnd  -l  /usr/local/share/qflow/tech/osu035/osu035_stdcells.lef up_counter_route.def
+
+Generating RTL verilog and SPICE netlist file in directory
+   /home/muchen/ELEC402TA/t1-qflow/synthesis
+Running vlog2Verilog.
+vlog2Verilog -c -v vdd -g gnd -o up_counter.rtl.anno.v up_counter_postroute.v
+vlog2Verilog -c -p -v vdd -g gnd -o up_counter.rtlnopwr.anno.v up_counter_postroute.v
+/usr/local/share/qflow/bin/vlog2Verilog -c -b -p -n -v vdd -g gnd -o up_counter.rtlbb.anno.v up_counter_postroute.v
+Running vlog2Spice.
+vlog2Spice -i -l  /usr/local/share/qflow/tech/osu035/osu035_stdcells.sp -o up_counter.anno.spc up_counter.rtl.anno.v
+Router script ended on Sun Sep 13 15:27:20 PDT 2020
